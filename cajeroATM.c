@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int verificaPin (int pin) {
-    int realPin = 3543;
+    int realPin = 0000;
     while (pin != realPin || (pin <0 || pin >9999)) {
         printf("PIN incorrecto. \nIntente de nuevo: ");
         scanf("%d", &pin);

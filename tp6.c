@@ -33,7 +33,7 @@ float imprimirResultados (float area, float perimetro, float diagonal, int figur
         printf ("\n La diagonal del rectangulo es: %.2f", diagonal); }
     else {
     printf ("\n El area del circulo es: %.2f", area);
-    printf ("\n El perimetro dle circulo es: %.2f", perimetro);
+    printf ("\n El perimetro del circulo es: %.2f", perimetro);
     }
     return 0;
 }
